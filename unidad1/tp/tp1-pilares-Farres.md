@@ -61,9 +61,9 @@ En el caso de InformeMedico se vio afectado la confidencialidad de la informaci�
 #### Como usar TOR
 
 Para que un Cliente pueda conectarse a un sitio web utilizando la red tor, primero se necesita de poseer el browser tor ya que, no podemos acceder simplemente a estos dominios que se encuentran en la deep y dark web. Entonces, es necesario hacerse del navegador tor. Para ello, simplemente con ingresar a [www.torproject.org](https://www.torproject.org/download/), descargar el instalador e instalarlo y ya lo hemos conseguido.
-![alt text](/unidad1/tp/resources/torproject-website.png)
+![alt text](/home/tats/Documents/UNCuyo/4°Año/SeguridadInformatica/unidad1/tp/resources/torproject-website.png)
 Ya dentro del navegador veremos algo tal que así;
-![alt text](/unidad1/tp/resources/tor1.png)
+![alt text](/home/tats/Documents/UNCuyo/4°Año/SeguridadInformatica/unidad1/tp/resources/tor1.png)
 y listo, ya estamos navegando a traves de la red tor y podriamos conectarnos a cualquier sitio web que solemos utilizar.
 
 #### Que hace (publica) el servidor web
@@ -73,7 +73,7 @@ y listo, ya estamos navegando a traves de la red tor y podriamos conectarnos a c
 #### Como conectarse a un hidden service con tor
 
 Sin embargo, todavia no hemos accedido a un sitio web .onion o tambien llamados hidden services. Para ello, debemos encontrar algun directorio en la clearnet que contenga las urls de los mismos, tal como https://deepweblinks.net/. Aun así, esta pagina solo nos proveera con otro directorio de links pero ahora ya sí, hosteado dentro de la red tor. Uno de los directorios más conocidos dentro de la deepweb es la **Hidden Wiki**.
-![alt text](/unidad1/tp/resources/hidden-wiki.png)
+![alt text](/home/tats/Documents/UNCuyo/4°Año/SeguridadInformatica/unidad1/tp/resources/hidden-wiki.png)
 Y listo, hemos podido conectarnos a un sitio web dentro de la deep web utilizando la red tor.
 
 #### Que diferencias hay en los servidores web entre la clearnet y la deepweb
@@ -91,11 +91,11 @@ Y listo, hemos podido conectarnos a un sitio web dentro de la deep web utilizand
 
 En el momento que un usuario se descarga tor en su PC, el cliente TOR de dicha maquina obtiene una lista de servidores TOR que se encuentra almacenado en algun servidor, es decir, todas las maquinas que poseen TOR instalado. Lista que ahora la PC del usuario forma parte al tener TOR instalado.
 
-![alt text](/unidad1/tp/resources/funciona-tor-1.png)
+![alt text](/home/tats/Documents/UNCuyo/4°Año/SeguridadInformatica/unidad1/tp/resources/funciona-tor-1.png)
 
 Luego, haciendo uso de la lista obtenida, el cliente TOR puede acceder a cualquiera (si hostean algun dominio) o hacer uso de ellas como nodos de redireccionamiento. Entonces, si el usuario quiere acceder a una pagina que se encuentra hosteada en una maquina G, el cliente TOR elige una secuencia aleatoria de saltos entre los nodos conocidos para llegar hasta ella.
 
-![alt text](/unidad1/tp/resources/funciona-tor-2.png)
+![alt text](/home/tats/Documents/UNCuyo/4°Año/SeguridadInformatica/unidad1/tp/resources/funciona-tor-2.png)
 
 Primero, antes de enviar la peticion, el cliente se hace de todas las claves publicas de los nodos que va a recorrer. Luego, utilizando la clave publica de G (Nodo destino) encripta la peticion en sí. Despues, el mensaje resultante se le agrega la direccion del nodo G y se encripta con la clave publica de I. Así, hasta llegar al primer nodo. De esta manera, obtenemos un mensaje encriptado en capas donde cada nodo solo puede desencriptar la direccion a la cual debe renviar el mensjae resultante.
 
