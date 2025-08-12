@@ -53,7 +53,13 @@ En el caso de InformeMedico se vio afectado la confidencialidad de la informaci√
 
 ### A.4 - Publico
 
+Clasificacion: Intrusion - Ataque de fuerza bruta & Compromiso de la informacion - Modificacion no autorizada de la informacion
+Nivel: Alto
+
 ### A.4 - Privado
+
+Clasificacion: Intrusion - Ataque de fuerza & Compromiso de la informacion - Modificacion no autorizada de la informacion
+Nivel: Alto
 
 ## Ejercicio B
 
