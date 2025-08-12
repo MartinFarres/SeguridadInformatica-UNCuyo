@@ -37,7 +37,7 @@ público y 1 en el privado de su país de origen.
 
 [1]: https://facundoquiroga.com/filtraron-mas-de-665-mil-estudios-medicos-tras-un-ciberataque-a-proveedor-del-sistema-de-salud/
 
-## Ejercicio A.3
+### Ejercicio A.3
 
 Determine y justifique el impacto en cada pilar en los ejemplos identificados por usted (busque que cada ejemplo valore diferente a los 3+1 pilares). Detalle que información se vio afectada.
 
@@ -90,9 +90,13 @@ Y listo, hemos podido conectarnos a un sitio web dentro de la deep web utilizand
 #### Como funciona la red tor
 
 En el momento que un usuario se descarga tor en su PC, el cliente TOR de dicha maquina obtiene una lista de servidores TOR que se encuentra almacenado en algun servidor, es decir, todas las maquinas que poseen TOR instalado. Lista que ahora la PC del usuario forma parte al tener TOR instalado.
+
 ![alt text](/unidad1/tp/resources/funciona-tor-1.png)
+
 Luego, haciendo uso de la lista obtenida, el cliente TOR puede acceder a cualquiera (si hostean algun dominio) o hacer uso de ellas como nodos de redireccionamiento. Entonces, si el usuario quiere acceder a una pagina que se encuentra hosteada en una maquina G, el cliente TOR elige una secuencia aleatoria de saltos entre los nodos conocidos para llegar hasta ella.
+
 ![alt text](/unidad1/tp/resources/funciona-tor-2.png)
+
 Primero, antes de enviar la peticion, el cliente se hace de todas las claves publicas de los nodos que va a recorrer. Luego, utilizando la clave publica de G (Nodo destino) encripta la peticion en sí. Despues, el mensaje resultante se le agrega la direccion del nodo G y se encripta con la clave publica de I. Así, hasta llegar al primer nodo. De esta manera, obtenemos un mensaje encriptado en capas donde cada nodo solo puede desencriptar la direccion a la cual debe renviar el mensjae resultante.
 
 ## Ejercicio C
