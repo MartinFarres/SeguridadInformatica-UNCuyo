@@ -13,7 +13,7 @@ público y 1 en el privado de su país de origen.
 | **Organización Afectada**    | Sitio oficial _argentina.gob.ar_ (también Mi Argentina, SUBE)                                                            |
 | **Equipos involucrados**     | No especificado; afectación a CMS y páginas estáticas                                                                    |
 | **Volumen afectado**         | Información visual alterada; sin datos personales comprometidos                                                          |
-| **Método de Ataque**         | Defacement: cambio de encabezados/píe de página, inserción de videos y mensajes políticos                                |
+| **Método de Ataque**         | Intrusion - Ataque de fuerza & Compromiso de la informacion - Modificacion no autorizada de la informacion               |
 | **Vulnerabilidad explotada** | Acceso con clave filtrada a servidor sin segundo factor de autenticación                                                 |
 | **Identidad del atacante**   | Seudónimos **h4xx0r1337** y **gov.eth**                                                                                  |
 | **Fuente de referencia**     | Cobertura en Infobae, Perfil, TN, publicaciones técnicas en redes sociales ([Capital24][1], [infobae][2], [LinkedIn][3]) |
@@ -24,16 +24,16 @@ público y 1 en el privado de su país de origen.
 
 ### A.1 - Privado
 
-| Elemento                 | Detalles                                    |
-| ------------------------ | ------------------------------------------- |
-| **Fecha**                | Abril–mayo 2025                             |
-| **Empresa afectada**     | InformeMédico (software de gestión médica)  |
-| **Equipos involucrados** | No detallado (datos centralizados)          |
-| **Volumen afectado**     | 665 000+ estudios médicos                   |
-| **Método**               | Acceso no autorizado al sistema central     |
-| **Vulnerabilidad**       | Controles de acceso / parches insuficientes |
-| **Atacante**             | No identificado públicamente                |
-| **Fuente**               | Informe periodístico ([Facundo Quiroga][1]) |
+| Elemento                 | Detalles                                                                                                         |
+| ------------------------ | ---------------------------------------------------------------------------------------------------------------- |
+| **Fecha**                | Abril–mayo 2025                                                                                                  |
+| **Empresa afectada**     | InformeMédico (software de gestión médica)                                                                       |
+| **Equipos involucrados** | No detallado (datos centralizados)                                                                               |
+| **Volumen afectado**     | 665 000+ estudios médicos                                                                                        |
+| **Método**               | Intrusion - Ataque de fuerza bruta & Compromiso de la informacion - Modificacion no autorizada de la informacion |
+| **Vulnerabilidad**       | Controles de acceso / parches insuficientes                                                                      |
+| **Atacante**             | No identificado públicamente                                                                                     |
+| **Fuente**               | Informe periodístico ([Facundo Quiroga][1])                                                                      |
 
 [1]: https://facundoquiroga.com/filtraron-mas-de-665-mil-estudios-medicos-tras-un-ciberataque-a-proveedor-del-sistema-de-salud/
 
@@ -48,18 +48,6 @@ En el caso de la pagina de gobierno, se perdio la integridad de la informacion p
 ### A.3 - Privado
 
 En el caso de InformeMedico se vio afectado la confidencialidad de la información, siendo que los usuarios maliciosos tuvieron accesso a informacion privada de miles de personas.
-
-## Ejercicio A.4
-
-### A.4 - Publico
-
-Clasificacion: Intrusion - Ataque de fuerza bruta & Compromiso de la informacion - Modificacion no autorizada de la informacion
-Nivel: Alto
-
-### A.4 - Privado
-
-Clasificacion: Intrusion - Ataque de fuerza & Compromiso de la informacion - Modificacion no autorizada de la informacion
-Nivel: Alto
 
 ## Ejercicio B
 
